@@ -1,10 +1,10 @@
 # 📊 E-commerce Cohort Analysis
 
 ## 🧠 Objective
-Analyze customer retention behavior over time using cohort analysis to understand how long customers stay engaged after their first purchase.
+Analyze customer retention behavior using cohort analysis to identify drop-off patterns and improve customer lifecycle strategy.
 
 ## 📦 Dataset
-Brazilian E-commerce Public Dataset (Olist)
+Source: Brazilian E-commerce Public Dataset (Kaggle)
 
 ## 🛠 Tools Used
 - SQL (MySQL)
@@ -28,7 +28,7 @@ Brazilian E-commerce Public Dataset (Olist)
    - Calculated retention rate (%)
    - Created heatmap using conditional formatting
 
-📊 Cohort Heatmap
+## 📊 Cohort Heatmap
 
 
 <img width="450" height="83" alt="headmap_cohort" src="https://github.com/user-attachments/assets/33661773-7da5-49f3-8375-1135fef223f8" />
@@ -40,6 +40,7 @@ Brazilian E-commerce Public Dataset (Olist)
 - Most customers do not return after their initial purchase
 - Retention stabilizes at a very low level in later months
 - The business heavily relies on new customer acquisition
+- Retention rate after month 1 is below 1%, indicating poor customer stickiness
 
 ## 💡 Recommendations
 
@@ -53,7 +54,7 @@ ecommerce-cohort-analysis/
 ├── sql/
 │ └── cohort_analysis.sql
 ├── data/
-│ └── sample_data.csv
+│ └── cohort_data.csv
 ├── images/
 │ └── cohort_heatmap.png
 └── README.md
