@@ -29,7 +29,10 @@ Brazilian E-commerce Public Dataset (Olist)
    - Created heatmap using conditional formatting
 
 📊 Cohort Heatmap
+
+
 <img width="450" height="83" alt="headmap_cohort" src="https://github.com/user-attachments/assets/33661773-7da5-49f3-8375-1135fef223f8" />
+
 
 ## 📊 Key Insights
 
